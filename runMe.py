@@ -25,11 +25,11 @@ while(True):
 
     guaranteed = input("letters that must be in the word, no separation: ")
     for letter in guaranteed:
-        inWord.append(letter.lower)
+        inWord.append(letter.lower())
 
     ignore = input("letters to ignore, no separation: ")
     for letter in ignore:
-        notInWord.append(letter.lower)
+        notInWord.append(letter.lower())
 
     positions = input("letters you know the position of (put _ where you don't know a letter):")
     for i in range(0, 5):
@@ -50,6 +50,7 @@ while(True):
                     considerFurther = False
         if considerFurther:
             updatedCandidates.write(word)
+            print(word[0:5])
     
     updatedCandidates.close()
     candidates.close()
