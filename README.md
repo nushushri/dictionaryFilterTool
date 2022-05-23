@@ -1,6 +1,6 @@
 # dictionaryFilterTool
 
-This is a tool designed off of my love for Wordle (though I have no direct association with New York Times, the game Wordle, or anything of the like). Simply open up Wordle side-by-side, enter in each word, and report the outcomes (correct and incorrect letters and their positions) into the program as you go. The file "candidates.txt" will display the updated possible words as you go. The "updatedCandidates.txt" file can be ignored.
+This is a tool designed off of my love for Wordle (though I have no direct association with New York Times, the game Wordle, or anything of the like). Simply open up a Python interpreter and import the "runMe.py" file, pop open Wordle side-by-side, enter in each word, and report the outcomes (correct and incorrect letters and their positions) into the program as you go. The program will print out possible left words as you go. 
 
 Enjoy!
 
