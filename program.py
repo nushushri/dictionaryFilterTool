@@ -8,7 +8,7 @@ except FileNotFoundError: pass
 try: os.remove("updatedCandidates.txt")
 except FileNotFoundError: pass
 
-fiveLetterOnly = open("fiveLetterOnly.txt", "r")
+fiveLetterOnly = open("fiveLetterWords.txt", "r")
 candidates = open("candidates.txt", "w")
 for word in fiveLetterOnly:
     candidates.write(word)
