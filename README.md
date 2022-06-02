@@ -1,6 +1,6 @@
 # dictionaryFilterTool
 
-This is a tool designed off of my love for Wordle (though I have no direct association with New York Times, the game Wordle, or anything of the like). Simply open up a Python interpreter with the program.py file, pop open Wordle side-by-side, enter guesses into Wordle, and report the outcomes (correct and incorrect letters and their positions) into the pop-up window. The program will print out possible candidate words after each guess. 
+This is a tool designed off of my love for Wordle (though I have no association with the game). Simply open up a Python interpreter with the program.py file, pop open Wordle side-by-side, enter guesses into Wordle, and report the outcomes (correct and incorrect letters and their positions) into the pop-up window. The program will print out possible candidate words after each guess. 
 
 Enjoy!
 
