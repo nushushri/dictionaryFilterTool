@@ -5,3 +5,5 @@ This is a tool designed off of my love for Wordle (though I have no association 
 Enjoy!
 
 Note: This program uses a dictionary obtained from https://github.com/dwyl/english-words . Specifically, I duplicated the "words_alpha.txt" file from that repo. I then extracted all of the 5-letter words into a text file called "fiveLetterOnly.txt".
+
+The GUI was created with Tkinter. A helpful tutorial I found was at https://realpython.com/python-gui-tkinter/ .
