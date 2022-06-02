@@ -72,7 +72,7 @@ fiveLetterFrame.pack()
 allLettersFrame = tk.Frame()
 for i in range(2):
     for j in range(13):
-        letterLabel = tk.Label(master=allLettersFrame, text=chr(65+13*i+j), width=3, height=2, background="gray")
+        letterLabel = tk.Label(master=allLettersFrame, text=chr(65+13*i+j), width=3, height=2, background="lightgray")
         letterLabel.grid(row=i, column=j, padx=2, pady=3)
 allLettersFrame.pack()
 
